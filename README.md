@@ -44,7 +44,7 @@ A simple rails react app using Api
 
 ## Link to the front-end repository <a name="Link to the front-end repository "></a>
   
-  [hello-react-front-end](https://github.com/Tafloninno/hello-react-front-end/tree/api)
+  [hello-react-front-end](https://github.com/BANCUNGUYE66/hello-react-front-end/tree/set-up)
 
 <!-- Features -->
 
@@ -76,7 +76,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh 
-git clone https://github.com/bancunguye66/hello-rails-react
+git clone https://github.com/BANCUNGUYE66/hello-react-front-end.git
   ```
   ```sh 
   cd hello-rails-react
