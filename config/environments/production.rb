@@ -57,6 +57,13 @@ Rails.application.configure do
 
   config.action_mailer.perform_caching = false
 
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins "http://localhost:3000", "http://localhost:3001"
+      resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head], credentials: true
+    end
+  end
+
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
